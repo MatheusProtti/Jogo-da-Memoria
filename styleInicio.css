@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Press Start 2P', cursive;
+}
+
+body{
+    background-image: url(./Assets/img/backGround3.jpg);
+    background-size: cover;
+    background-size: 100%;
+    background-position: center;
+}
+
+.inicio{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao{
+    width: 35%;
+}
+
+#play{
+    
+    margin: 220px 450px 0px 0px;
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    width: 140px;
+    font-size: 23px;
+    background-color: rgb(243, 141, 45);
+    
+}
+
+#play:hover{
+    padding: 20px;
+    width: 210px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1811px) {
+    body{
+        background-size: cover;
+    }
+}
